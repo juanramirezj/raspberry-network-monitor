@@ -17,7 +17,7 @@ pixels = neopixel.NeoPixel(board.D21,8)
 
 def enciendeRGB(led, estado, luminosidad):
     lumi0 = 1 
-    lumif = luminosidad
+    lumif = luminosidad+1
     lumis = 5 
     p = 0.1
 
